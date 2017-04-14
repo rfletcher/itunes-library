@@ -90,6 +90,11 @@ class TestITunes < Test::Unit::TestCase
     assert_equal 0, library.fetch_track(7944).play_count
   end
 
+  def test_track_compilation
+    assert_equal true, library.fetch_track(7840).compilation?
+    assert_equal false, library.fetch_track(7944).compilation?
+  end
+
   def test_track_unplayed
     assert_equal true, library.fetch_track(7944).unplayed?
   end

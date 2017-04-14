@@ -98,6 +98,10 @@ module ITunes
       uri_parser.unescape(location).gsub('file://localhost', '')
     end
 
+    def compilation?
+      self['Compilation'] || false
+    end
+
     def audio?
       !video?
     end

@@ -1778,6 +1778,7 @@
 			<key>Track Number</key><integer>4</integer>
 			<key>Track Count</key><integer>16</integer>
 			<key>Year</key><integer>2004</integer>
+			<key>Compilation</key><true/>
 			<key>Date Modified</key><date>2008-03-01T23:31:48Z</date>
 			<key>Date Added</key><date>2010-04-24T13:23:32Z</date>
 			<key>Bit Rate</key><integer>259</integer>
